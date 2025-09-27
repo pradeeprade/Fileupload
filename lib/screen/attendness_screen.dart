@@ -52,13 +52,13 @@ class _AttendanceScreenState extends State<AttendanceScreen> {
               children: [
                 ElevatedButton(
                   onPressed: () => markAttendance("Present"),
-                  style: ElevatedButton.styleFrom(backgroundColor: Colors.green),
+                  style: ElevatedButton.styleFrom(backgroundColor: Colors.red),
                   child: const Text("Mark Present"),
                 ),
                 const SizedBox(width: 20),
                 ElevatedButton(
                   onPressed: () => markAttendance("Absent"),
-                  style: ElevatedButton.styleFrom(backgroundColor: Colors.red),
+                  style: ElevatedButton.styleFrom(backgroundColor: Colors.white),
                   child: const Text("Mark Absent"),
                 ),
               ],

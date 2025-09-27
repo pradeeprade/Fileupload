@@ -39,6 +39,9 @@ dependencies:
   dio: ^5.9.0
   mime: ^2.0.0
   path: ^1.9.1
+  video_player: ^2.10.0
+  syncfusion_flutter_pdfviewer: ^31.1.21
+  open_filex: ^4.7.0
 
 dev_dependencies:
   flutter_test:
